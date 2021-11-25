@@ -106,7 +106,7 @@
         height: 35%;
         
         flex-flow: column ;
-        justify-content: space-between;
+        justify-content: space-around;
         align-items: flex-start;
     }
 }
