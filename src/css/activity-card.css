@@ -54,11 +54,11 @@
     border-radius: 13px;
 }
 
-@media (min-width: 1440px) {
+@media (min-width: 1080px) {
     .activity-card{
         
         height: 100%;
-        width: 100%;
+        width: 240px;
     }
 }
 
@@ -124,7 +124,7 @@
     color: var(--Pale-Blue);
 }
 
-@media (min-width: 1440px) {
+@media (min-width: 1080px) {
     .activity-tracker{
         flex-flow:column nowrap;
         justify-content: center;

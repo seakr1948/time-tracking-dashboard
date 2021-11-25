@@ -1,5 +1,6 @@
 import './App.css';
-import './css/utilities.css'
+import './css/utilities.css';
+import './css/styling.css'
 
 import Data from './data.json'
 import { useState } from 'react';
