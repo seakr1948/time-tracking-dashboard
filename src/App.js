@@ -11,15 +11,17 @@ function App() {
   console.log(data)
   const timeframes = ["daily", "weekly", "monthly"]
   const [currentTimeFrame, setCurrentTimeFrame] = useState("daily")
+  const [selected, setSelected] = useState(0)
 
-  const setTimeframe = (TIMEFRAME) => {
+  const setTimeframe = (TIMEFRAME, INDEX) => {
     setCurrentTimeFrame(TIMEFRAME)
+    setSelected(INDEX)
   }
 
   return (
     <div className="App flex">
       <div className="grid grid-container">
-        <ProfileCard key="0" timeframes= {timeframes} setTimeframe = {setTimeframe}/>
+        <ProfileCard key="0" timeframes= {timeframes} setTimeframe = {setTimeframe} selected={selected}/>
         {
           data.map((data, index) =>
             <ActivityCard key={index} data={data} timeframe={currentTimeFrame} />

@@ -1,6 +1,7 @@
 body {
   margin: 0;
   font-family: 'Rubik', sans-serif;
+  background-color: hsl(226, 43%, 10%);
 }
 
 *,
