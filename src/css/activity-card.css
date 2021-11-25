@@ -79,7 +79,7 @@
 }
 
 .activity-content:hover{
-    background-color: hsl(235, 46%, 40%);
+    background-color: hsl(235, 45%, 40%);
 }
 
 /* Activity Header */
@@ -88,21 +88,22 @@
     align-items: center;
 }
 
-.activity-header a{
+.activity-header button{
     
-    
+    border: 0;
+    background-color: transparent;
     display: inline-block;
     padding: 0;
     overflow: hidden;
     
 }
 
-.activity-header a .ellipse > *{
+.activity-header button .ellipse > *{
     height: auto;
     transition: fill 0.2s ease-in;
 }
 
-.activity-header a:hover .ellipse > *{
+.activity-header button:hover .ellipse > *{
     fill: white;
 }
 
