@@ -16,7 +16,7 @@ const ProfileCard = ({timeframes, setTimeframe, selected}) => {
                 {
                 timeframes.map((timeframe, index) => 
 
-                <a id={selected === index ? 'selected' : ''} onClick ={() => {setTimeframe(timeframe, index)}}>{timeframe}</a>
+                <button target="_self" id={selected === index ? 'selected' : ''} onClick ={() => {setTimeframe(timeframe, index)}}>{timeframe}</button>
                 )}
             </div>
         </div>

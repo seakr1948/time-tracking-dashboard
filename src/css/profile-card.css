@@ -76,16 +76,20 @@
     
 }
 
-.timeframes a{
+.timeframes button{
     text-transform: capitalize;
-    
+    background-color: transparent;
+    border: none;
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
     color: hsl(235, 45%, 61%);
     font-size: bold;
     transition: color ease-in 0.2s,
                 transform ease-in 0.2s;
 }
 
-.timeframes a:hover{
+.timeframes button:hover{
     color: white;
     cursor: pointer;
     transform: scale(1.05);
